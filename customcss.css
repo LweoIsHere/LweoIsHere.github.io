@@ -15,9 +15,9 @@ h1 {
     background-color: #333333;
     border-radius: 5px;
     color: white;
-    right: 50%;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
     padding: 1.5rem;
     text-decoration: none;
     display: inline-block;
-    margin: 4px 2px;
+    margin: auto;
   }
