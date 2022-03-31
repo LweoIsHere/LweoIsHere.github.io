@@ -5,8 +5,8 @@
 body {
     background-image: url('gif/anime2.gif');
     background-size: cover;
-    background-repeat: repeat; 
     background-position: center;
+    margin: 0;
 }
 
 h1 {
