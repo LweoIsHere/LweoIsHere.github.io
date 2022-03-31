@@ -4,7 +4,8 @@
 
 body {
     background-image: url('gif/anime.gif');
-    background-size: contain;
+    background-size: cover;
+    background-repeat: repeat; 
     background-position: center;
 }
 
