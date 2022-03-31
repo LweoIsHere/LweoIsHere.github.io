@@ -5,9 +5,7 @@
 body {
     background-image: url('gif/anime.gif');
     background-size: cover;
-    height: 100vh;
-    padding:0;
-    margin:0;
+    background-position: center;
 }
 
 h1 {
