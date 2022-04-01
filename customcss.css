@@ -20,13 +20,13 @@ h1 {
     min-width: 240px;
     text-align: center;
     padding-right: 2.5rem;
-    opacity: 0.75;
+    opacity: 0.9;
     border-radius: 5px;
     color: white;
     font-family: "Comic Sans MS", "Comic Sans", cursive;
     padding: 1.5rem;
     text-decoration: none;
     display: inline-block;
-    margin: 50px;
+    margin: 150px;
 
   }
