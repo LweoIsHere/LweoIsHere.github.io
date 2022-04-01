@@ -5,6 +5,7 @@
 body {
     background-image: url('gif/touhou.jpg');
     background-size: cover;
+    background-color: black; /* make image darker */
     background-repeat: no-repeat;
 }
 
