@@ -14,9 +14,10 @@ h1 {
     font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
-.home {
+.home  {
     background-color: rgb(24, 24, 27);
     padding-left: 2.5rem;
+    min-width: 240px;
     padding-right: 2.5rem;
     opacity: 0.75;
     border-radius: 5px;
