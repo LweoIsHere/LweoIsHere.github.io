@@ -18,6 +18,8 @@ h1 {
     background-color: rgb(24, 24, 27);
     padding-left: 2.5rem;
     min-width: 240px;
+    position:absolute; 
+    left:-500px;
     text-align: center;
     padding-right: 2.5rem;
     opacity: 0.9;
