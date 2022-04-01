@@ -18,7 +18,7 @@ h1 {
     background-color: rgb(24, 24, 27);
     padding-left: 2.5rem;
     min-width: 240px;
-    position:absolute; 
+
     text-align: center;
     padding-right: 2.5rem;
     opacity: 0.9;
@@ -27,6 +27,8 @@ h1 {
     font-family: "Comic Sans MS", "Comic Sans", cursive;
     padding: 1.5rem;
     text-decoration: none;
-    margin: 300px;
-    float:right;
+    float:left;
+    position:relative;
+    left: 36%;
+    margin: 8px; 
   }
