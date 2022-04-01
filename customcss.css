@@ -17,6 +17,7 @@ h1 {
 .home  {
     background-color: rgb(24, 24, 27);
     padding-left: 2.5rem;
+    width: 795px;
     min-width: 240px;
    /* position:absolute; 
     left:200px; */
@@ -28,6 +29,5 @@ h1 {
     font-family: "Comic Sans MS", "Comic Sans", cursive;
     padding: 1.5rem;
     text-decoration: none;
-    margin: auto;
 
   }
