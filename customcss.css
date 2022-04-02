@@ -1,4 +1,16 @@
-#heading {
+/*
+    css and all that.
+*/
+
+
+img {
+    width: 80px;
+    border-radius: 5px;
+    height: 5rem;
+    
+  }
+  
+  #heading {
     font-size: 30px;
     color: rgb(250, 183, 255);
     background-color: rgb(24, 24, 27);
@@ -9,14 +21,13 @@
     min-width: 240px;
     width: 400px;
     margin: auto;
-    border-radius: 10px;
+    border-radius: 5px;
     border-color: #ff00eb;
   }
   
   body {
-    background-image: url('gif/touhou.jpg');
+    background-image: url('touhou.jpg');
     background-size: cover;
-    background-color: black; /* make image darker */
     background-repeat: no-repeat;
   }
   
@@ -31,18 +42,17 @@
     background-color: rgb(24, 24, 27);
     padding-left: 2.5rem;
     min-width: 240px;
-  
     text-align: center;
     padding-right: 2.5rem;
     opacity: 0.97;
     border-radius: 5px;
     color: white;
     font-family: "Comic Sans MS", "Comic Sans", cursive;
-    padding: 1.5rem;
+    padding: 9rem 50px;
     text-decoration: none;
     float:left;
     position:relative;
-    left: 42%;
+    left: 41%;
     margin: 8px; 
   }
   
