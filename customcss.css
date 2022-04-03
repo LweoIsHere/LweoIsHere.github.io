@@ -3,7 +3,6 @@
 */
 
 #siteinfo {
-  overflow: hidden;
   float:left;
   font-family: "Comic Sans MS", "Comic Sans", cursive;
   font-size: 20px;
@@ -14,7 +13,7 @@
   color: white; 
   text-align: center;
   left: -19.2%;
-  margin-top:46rem;
+  margin-top:44rem;
   position:relative;
 }
 
@@ -24,7 +23,7 @@ img {
   border-radius: 5px;
   float:right;
   left:-55.5rem;
-  margin-top:10px;
+  margin-top:20px;
   height: 5rem;
 }
 
