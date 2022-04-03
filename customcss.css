@@ -1,58 +1,60 @@
 /*
-    css and all that.
+  css and all that.
 */
 
-
 img {
-    width: 80px;
-    border-radius: 5px;
-    height: 5rem;
-    
-  }
+  width: 80px;
+  position: relative; /* makes the image above the parent */
+  border-radius: 5px;
+  float:right;
+  left:-55.5rem;
+  margin-top:20px;
+  height: 5rem;
+}
+
+#heading {
+  font-size: 30px;
+  color: rgb(250, 183, 255);
+  background-color: rgb(24, 24, 27);
+  padding-left: 2.5rem;
+  padding: 1.5rem;
+  opacity: 0.97;
+  padding-right: 2.5rem;
+  min-width: 240px;
+  width: 400px;
+  margin: auto;
+  border-radius: 5px;
+  border-color: #ff00eb;
+}
+
+body {
+  background-image: url('gif/touhou.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+
+
+.home  {
+  background-color: rgb(24, 24, 27);
   
-  #heading {
-    font-size: 30px;
-    color: rgb(250, 183, 255);
-    background-color: rgb(24, 24, 27);
-    padding-left: 2.5rem;
-    padding: 1.5rem;
-    opacity: 0.97;
-    padding-right: 2.5rem;
-    min-width: 240px;
-    width: 400px;
-    margin: auto;
-    border-radius: 5px;
-    border-color: #ff00eb;
-  }
-  
-  body {
-    background-image: url('gif/touhou.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-  
-  h1 {
-    text-align: center;
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
-  }
-  
-  
-  
-  .home  {
-    background-color: rgb(24, 24, 27);
-    padding-left: 2.5rem;
-    min-width: 240px;
-    text-align: center;
-    padding-right: 2.5rem;
-    opacity: 0.97;
-    border-radius: 5px;
-    color: white;
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
-    padding: 9rem 50px;
-    text-decoration: none;
-    float:left;
-    position:relative;
-    left: 41%;
-    margin: 8px; 
-  }
-  
+  padding-left: 2.5rem;
+  min-width: 240px;
+  text-align: center;
+  padding-right: 2.5rem;
+  opacity: 0.97;
+  border-radius: 5px;
+  color: white;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  padding: 9rem 50px;
+  text-decoration: none;
+  float:left;
+  position:relative;
+  left: 41%;
+  margin: 8px; 
+}
