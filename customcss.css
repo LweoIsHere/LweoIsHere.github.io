@@ -3,6 +3,7 @@
 */
 
 #siteinfo {
+  overflow: hidden;
   float:left;
   font-family: "Comic Sans MS", "Comic Sans", cursive;
   font-size: 20px;
