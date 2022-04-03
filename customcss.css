@@ -2,6 +2,21 @@
   css and all that.
 */
 
+#siteinfo {
+  float:left;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-size: 20px;
+  background-color: rgb(24, 24, 27);
+  padding: 1rem 15px;
+  opacity: 0.97;
+  border-radius: 5px;
+  color: white; 
+  text-align: center;
+  left: -19.2%;
+  margin-top:44rem;
+  position:relative;
+}
+
 img {
   width: 80px;
   position: relative; /* makes the image above the parent */
