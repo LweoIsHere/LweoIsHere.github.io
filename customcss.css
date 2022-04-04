@@ -1,6 +1,16 @@
 /*
   css and all that :3
 */
+hr {
+  width: 250px;
+  float:right;
+  border-color: rgb(74, 74, 74);
+  left:-42rem; /* makes it go to the center */
+  position: relative; /* makes the image above the parent */
+  margin-top:9.5rem; /* this makes it more go down or up, depending on the number. */
+
+}
+
 
 h2 { /* this is the text below the image */
   font-family: "Comic Sans MS", "Comic Sans", cursive;
