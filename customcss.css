@@ -1,21 +1,19 @@
 /*
-  css and all that :3
+  css and all that :3 (https://pastebin.com/xz4XYZwN) old css and html
 */
-
-
+* {
+  box-sizing: border-box;
+}
 
 
 a {
   border-radius: 5px;
   font-family: "Comic Sans MS", "Comic Sans", cursive;
-  text-align: center;
-  left:-10.5rem; /* makes it go to the center */
-  position: relative; /* makes the image above the parent */
-  float:right;
-  margin-top:17rem; /* this makes it more go down or up, depending on the number. */
-  font-weight: 150px;
   background-color: rgb(50, 50, 54);
   color: white;
+  position: relative; /* makes the image above the parent */
+  left:52rem;
+  top: 18rem;
   padding: 15px 50px;
   transition: 200ms ease;
   text-decoration: none;
@@ -29,68 +27,65 @@ a:hover {
 
 hr {
   width: 250px;
+  right: 70px;
+  margin-top:20px;
+  margin-bottom: 20px;
   float:right;
   border-color: rgb(74, 74, 74);
-  left:-42rem; /* makes it go to the center */
   position: relative; /* makes the image above the parent */
-  margin-top:16rem; /* this makes it more go down or up, depending on the number. */
 
 }
+
 
 
 #h2under { /* this took so much time, i don't know why.. */
   font-family: Arial;
   font-size: 14px;
-  left:-26rem; /* makes it go to the center */
-  width:14%;
-  margin-top:9.5rem; /* this makes it more go down or up, depending on the number. */
 
+  width: 70%;
+  position: relative; /* makes the image above the parent */
+  border-radius: 5px;
+  float:right;
+  margin-top:20px;
+  margin-bottom: 10px;
+  height: 5rem;
+  right: 60px;
 }
 
 h2 { /* this is the text below the image */
   font-family: "Comic Sans MS", "Comic Sans", cursive;
   text-align: center;
-  left:-51.5rem; /* makes it go to the center */
-  position: relative; /* makes the image above the parent */
   float:right;
-  margin-top:7rem; /* this makes it more go down or up, depending on the number. */
+  margin: auto;
+  margin-top:20px;
+  margin-bottom: 20px;
+  height: 5rem;
+  text-align: center;
   color: white;
   font-weight: 150px;
+  right: 60px;
+
 }
 
-#siteinfo {
-  float:left;
-  font-family: "Comic Sans MS", "Comic Sans", cursive;
-  font-size: 20px;
-  background-color: rgb(24, 24, 27);
-  padding: 1rem 15px;
-  opacity: 0.97;
-  border-radius: 5px;
-  color: white; 
-  text-align: center;
-  left: -19.2%;
-  margin-top:44rem;
-  position:relative;
-}
 
 img {
   width: 80px;
   position: relative; /* makes the image above the parent */
   border-radius: 5px;
   float:right;
-  left:-55.5rem;
   margin-top:20px;
+  margin-bottom: 10px;
   height: 5rem;
+  right: 150px;
 }
+
 
 #heading {
   font-size: 30px;
   color: rgb(250, 183, 255);
   background-color: rgb(24, 24, 27);
-  padding-left: 2.5rem;
   padding: 1.5rem;
   opacity: 0.97;
-  padding-right: 2.5rem;
   min-width: 240px;
   width: 400px;
   margin: auto;
@@ -110,19 +105,21 @@ h1 {
 }
 
 .home  {
+  
+  list-style-type: none;
+  margin: auto;
+  margin-top: 10px;
   background-color: rgb(24, 24, 27);
-  padding-left: 2.5rem;
-  min-width: 240px;
-  text-align: center;
-  padding-right: 2.5rem;
   opacity: 0.97;
   border-radius: 5px;
   color: white;
   font-family: "Comic Sans MS", "Comic Sans", cursive;
-  padding: 13rem 50px;
   text-decoration: none;
-  float:left;
   position:relative;
-  left: 41%;
-  margin: 8px; 
+  width: 20%;
+  height: 350px;
+  right: 39%;
+  float: right;
 }
+
+
