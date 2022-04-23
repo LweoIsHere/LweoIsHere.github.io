@@ -1,85 +1,24 @@
 /*
-  css and all that :3 (https://pastebin.com/xz4XYZwN) old css and html
-*/
-* {
-  box-sizing: border-box;
-}
-
-
+ button! 
 a {
   border-radius: 5px;
   font-family: "Comic Sans MS", "Comic Sans", cursive;
   background-color: rgb(50, 50, 54);
   color: white;
-  position: relative; /* makes the image above the parent */
+  position: relative; 
   left:52rem;
   top: 18rem;
   padding: 15px 50px;
   transition: 200ms ease;
   text-decoration: none;
-  border:2px solid rgb(50, 50, 54); /* literally most annoying thing ever.. */
+  border:2px solid rgb(50, 50, 54);
 }
 
 a:hover {
   transition: 200ms ease;
   border:2px solid  #2563eb;
 }
-
-hr {
-  width: 250px;
-  right: 70px;
-  margin-top:20px;
-  margin-bottom: 20px;
-  float:right;
-  border-color: rgb(74, 74, 74);
-  position: relative; /* makes the image above the parent */
-
-}
-
-
-
-#h2under { /* this took so much time, i don't know why.. */
-  font-family: Arial;
-  font-size: 14px;
-
-  width: 70%;
-  position: relative; /* makes the image above the parent */
-  border-radius: 5px;
-  float:right;
-  margin-top:20px;
-  margin-bottom: 10px;
-  height: 5rem;
-  right: 60px;
-}
-
-h2 { /* this is the text below the image */
-  font-family: "Comic Sans MS", "Comic Sans", cursive;
-  text-align: center;
-  float:right;
-  margin: auto;
-  margin-top:20px;
-  margin-bottom: 20px;
-  height: 5rem;
-  text-align: center;
-  color: white;
-  font-weight: 150px;
-  right: 60px;
-
-}
-
-
-img {
-  width: 80px;
-  position: relative; /* makes the image above the parent */
-  border-radius: 5px;
-  float:right;
-  margin-top:20px;
-  margin-bottom: 10px;
-  height: 5rem;
-  right: 150px;
-}
-
-
+ */
 #heading {
   font-size: 30px;
   color: rgb(250, 183, 255);
@@ -98,28 +37,4 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
-
-h1 {
-  text-align: center;
-  font-family: "Comic Sans MS", "Comic Sans", cursive;
-}
-
-.home  {
-  
-  list-style-type: none;
-  margin: auto;
-  margin-top: 10px;
-  background-color: rgb(24, 24, 27);
-  opacity: 0.97;
-  border-radius: 5px;
-  color: white;
-  font-family: "Comic Sans MS", "Comic Sans", cursive;
-  text-decoration: none;
-  position:relative;
-  width: 20%;
-  height: 350px;
-  right: 39%;
-  float: right;
-}
-
 
