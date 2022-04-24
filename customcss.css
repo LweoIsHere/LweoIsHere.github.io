@@ -19,22 +19,15 @@ a:hover {
   border:2px solid  #2563eb;
 }
  */
-#heading {
-  font-size: 30px;
-  color: rgb(250, 183, 255);
-  background-color: rgb(24, 24, 27);
-  padding: 1.5rem;
-  opacity: 0.97;
-  min-width: 240px;
-  width: 400px;
-  margin: auto;
-  border-radius: 5px;
-  border-color: #ff00eb;
-}
 
-body {
+
+
+ body {
   background-image: url('gif/touhou.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
 
+#quickfix {
+  margin-top: -23rem; 
+}
