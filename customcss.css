@@ -1,42 +1,8 @@
-  /*
-  button! 
-  a {
-    border-radius: 5px;
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
-    background-color: rgb(50, 50, 54);
-    color: white;
-    position: relative; 
-    left:52rem;
-    top: 18rem;
-    padding: 15px 50px;
-    transition: 200ms ease;
-    text-decoration: none;
-    border:2px solid rgb(50, 50, 54);
-  }
+body {
+  background: url('gif/touhou.jpg') no-repeat center fixed;     
+  background-size: cover; 
+}
 
-  a:hover {
-    transition: 200ms ease;
-    border:2px solid  #2563eb;
-  }
-  */
-
-
-
-  body {
-    background-image: url('gif/touhou.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    
-  }
-
-  @media screen and (max-width: 360px) {
-    body {
-      background-image: url('gif/mobile.jpg');
-      background-size: cover;
-      background-repeat: no-repeat;
-    }
-  }
-
-  #quickfix {
-    margin-top: -23rem; 
-  }
+#quickfix {
+  margin-top: -23rem; /* this won't be mean with the background image anymore since the above works, in thank god.. */
+}
