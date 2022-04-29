@@ -29,6 +29,14 @@
     
   }
 
+  @media screen and (max-width: 360px) {
+    body {
+      background-image: url('gif/mobile.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+  }
+
   #quickfix {
     margin-top: -23rem; 
   }
