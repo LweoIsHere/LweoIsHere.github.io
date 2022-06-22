@@ -3,6 +3,14 @@ body {
   background-size: cover; 
 }
 
+a.button {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  
+  text-decoration: none;
+}
+
 #quickfix {
   margin-top: -23rem; /* this won't be mean with the background image anymore since the above works, in thank god.. */
 }
