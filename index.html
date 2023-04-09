@@ -28,69 +28,78 @@
     <meta content="#ff9eed" data-react-helmet="true" name="theme-color" />
     <title>omg</title>
     <style> /* i was too lazy to put the custom css in a file, will do later */
-      body {
-        background-color: #131313;
-        font-family: Arial, sans-serif;
-        text-align: center;
-      }
-
-      .container { /* main thing of it, container */
-        max-width: 375px;
-        border: 0.75px solid rgba(200, 200, 200, 0.3);
-        margin: 50px auto;
-        background-color: rgb(22, 22, 22);
-        padding: 50px;
-        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-        border-radius: 3px;
-      }
-
-      .container:hover {
-        background-color: rgb(26, 26, 26);
-        transition: 200ms ease;
-
-      }
-
-      h1 { /* h1 */
-        font-size: 36px;
-        margin-bottom: 20px;
-        color: rgba(255, 255, 255, 0.815);
-      }
-
-      p { /* paragraph */
-        font-size: 18px;
-        color: rgba(255, 255, 255, 0.815);
-        margin-bottom: 20px;
-      }
-
-      .btn { /* button example */
-        background-color: rgb(22, 22, 22);
-        color: rgba(255, 255, 255, 0.815);
-        padding: 15px 40px;
-        border-radius: 3px;
-        text-decoration: none;
-        font-size: 18px;
-        margin-top: 10px;
-        transition: 200ms ease;
-        display: inline-block;
-        border: 0.75px solid rgba(200, 200, 200, 0.3);
-      }
-
-      .btn:hover { /* for when it's hovered, transition of button */
-        background-color:rgb(28, 28, 28);
-      }
-
-
-      .omgimg {  /* img example */
-        max-width: 40%;
-        padding: 5px 5px;
-        background: rgb(28, 28, 28);
-        border-radius: 5px;
-        text-decoration: none;
-        margin-top: 10px;
-        display: inline-block;
-        border: 1px solid rgba(200, 200, 200, 0.3);
-      }
-
+ body {
+     background-color: #131313;
+     font-family: Arial, sans-serif;
+     text-align: center;
+}
+ .container {
+    /* main thing of it, container. i could do a display:grid; but i don't want the buttons too big ngl sorryy */
+     max-width: 375px;
+     border: 0.75px solid rgba(200, 200, 200, 0.3);
+     margin: 50px auto;
+     background-color: rgb(22, 22, 22);
+     padding: 50px;
+     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+     border-radius: 3px;
+}
+ .container:hover {
+     background-color: rgb(26, 26, 26);
+     transition: 200ms ease;
+}
+ h1 {
+    /* h1 */
+     font-size: 36px;
+     margin-bottom: 20px;
+     color: rgba(255, 255, 255, 0.815);
+}
+ p {
+    /* paragraph */
+     font-size: 18px;
+     color: rgba(255, 255, 255, 0.815);
+     margin-bottom: 20px;
+}
+ .btn {
+    /* button example */
+     background-color: rgb(22, 22, 22);
+     color: rgba(255, 255, 255, 0.815);
+     padding: 15px 40px;
+     border-radius: 3px;
+     text-decoration: none;
+     font-size: 18px;
+     margin-top: 10px;
+     transition: 200ms ease;
+     display: inline-block;
+     border: 0.75px solid rgba(200, 200, 200, 0.3);
+}
+ .btn:hover {
+    /* for when it's hovered, transition of button */
+     background-color:rgb(28, 28, 28);
+}
+ .container_row{
+     display: grid;
+}
+ .layer1, .layer2{ /* https://stackoverflow.com/questions/6780614/css-how-to-position-two-elements-on-top-of-each-other-without-specifying-a-hei */
+     grid-column: 1;
+     grid-row: 1;
+}
+ .omgimg {
+    /* img example */
+     max-width: 40%;
+     padding: 5px 5px;
+     background: rgb(28, 28, 28);
+     border-radius: 100px;
+     text-decoration: none;
+     margin-top: 10px;
+     display: inline-block;
+     border: 1px solid rgba(200, 200, 200, 0.3);
+}
+ .avatardecoration {
+    /* sometihng ontop of the avatar omg :3 */
+     max-width: 50%;
+     display: inline-block;
+     position: relative;
+}
 
       
 .glitch {  /* glitch effect i had awhile ago */
@@ -182,7 +191,16 @@
   </head>
   <body>
     <div class="container">
-      <img src="img/omgomg.jpg" class="omgimg" alt="Girl in a jacket">
+      <div class="container_row">
+        <div class="layer1">
+          <img src="img/flowers.png" class="avatardecoration"  alt="Girl in a jacket">
+        </div>
+        <div class="layer2">
+          <img src="img/omgomg.jpg" class="omgimg" alt="Girl in a jacket">
+
+        </div>
+    </div>
+
 
       <h1 class="glitch">Leo!</h1>
 
